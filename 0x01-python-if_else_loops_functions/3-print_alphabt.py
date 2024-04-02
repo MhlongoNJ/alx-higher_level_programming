@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-for j in range(ord("a"), ord("z") +1):
-    if chr(j) != "e" and chr(j) != "q":
-        print("{:c}".format(j), end="")
+for Alphabets in range(ord("a"), ord("z") + 1):
+    if chr(Alphabets) != "e" and chr(Alphabets) != "q":
+        print("{:c}".format(Alphabets), end="")
